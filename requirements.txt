@@ -1,0 +1,39 @@
+# requirements.txt
+# Требуется Python 3.11.x (НЕ 3.12!) для совместимости с инженерными пакетами
+# Установка: pip install -r requirements.txt --only-binary=:all:
+
+# Core scientific stack
+numpy==1.26.4
+scipy==1.12.0
+numba==0.58.1
+pandas==2.2.2
+
+# Geometry & BIM
+ifcopenshell==0.8.3  # Последняя версия с поддержкой Python 3.11 для Windows
+gmsh==4.12.2         # Стабильная версия с бинарными сборками
+pyyaml==6.0.1        # Для работы с конфигами расчётов
+
+# Visualization
+pyvista==0.43.2
+pyvistaqt==0.11.1    # Совместимость с PyQt5
+matplotlib==3.8.4
+
+# GUI
+PyQt5==5.15.9        # LTS-версия с поддержкой Python 3.11
+PyQt5-sip==12.13.0   # Критически важная зависимость для PyQt5
+
+# Build & compilation
+Cython==3.0.10       # Для компиляции stress_calculator.pyx
+setuptools==69.5.1   # Стабильная версия для сборки Cython-модулей
+wheel==0.43.0        # Для создания .whl файлов
+
+# Utilities
+tqdm==4.66.4         # Прогресс-бары для расчётов
+python-dotenv==1.0.1 # Управление переменными окружения
+requests==2.32.3     # Для облачных расчётов (в будущем)
+
+# Dev tools (для разработки)
+pytest==8.2.2
+flake8==7.1.0
+black==24.4.2
+mypy==1.10.0

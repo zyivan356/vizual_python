@@ -1,0 +1,45 @@
+# Visual Studio
+.vs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+*.pyd
+*.so
+*.dll
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Data files
+*.log
+*.sqlite
+*.h5
+*.npz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyCharm
+*.idea/
