@@ -9,7 +9,7 @@
 [![Preview](https://via.placeholder.com/800x400?text=3D+Visualization+Preview)](screenshot.png)  
 *Визуализация результатов расчёта напряжений в фундаментной плите*
 
-https://github.com/zyivan356/vizual_python/blob/master/assets/main1.png)
+!(https://github.com/zyivan356/vizual_python/blob/master/assets/main1.png)
 
 ---
 
