@@ -1,4 +1,4 @@
-# 🏗️ Engineering Suite — Open-Source аналог Plaxis & Renga
+# 🏗️ Vizual python — Open-Source аналог Plaxis & Renga
 
 ![Python 3.11](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -8,6 +8,8 @@
 
 [![Preview](https://via.placeholder.com/800x400?text=3D+Visualization+Preview)](screenshot.png)  
 *Визуализация результатов расчёта напряжений в фундаментной плите*
+
+![](https://github.com/zyivan356/vizual_python/blob/master/assets/main1.png)
 
 ---
 
@@ -34,8 +36,8 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/yourusername/engineering-suite.git
-cd engineering-suite
+git clone https://github.com/zyivan356/vizual_python.git
+cd vizual_python
 ```
 
 ### 2. Создание виртуального окружения
@@ -65,7 +67,7 @@ python app.py
 
 ## 📂 Структура проекта
 ```
-engineering-suite/
+vizual_python/
 ├── core/                  # Нативные модули (Cython/Numba)
 │   ├── stress_calculator.pyx  # Алгоритмы расчёта напряжений
 │   └── __init__.py
