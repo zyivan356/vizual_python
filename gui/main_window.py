@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
 import numpy as np
 from core import stress_calculator  # ← Вызывает скомпилированный C++ код!
 
@@ -22,7 +22,8 @@ class MainWindow(QMainWindow):
         print(f"Расчёт завершён! Среднее напряжение: {np.mean(stress_result):.2e} Па")
 
 
-app = QApplication([])
-window = MainWindow()
-window.show()
-app.exec_()
+if __name__ == "__main__":
+    app = QApplication([])
+    window = MainWindow()
+    window.show()
+    app.exec_()
